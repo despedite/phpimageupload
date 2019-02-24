@@ -14,6 +14,6 @@ Based on [PHP5's File Upload tutorial](https://www.w3schools.com/php/php_file_up
 * Drag & Drop?
 
 #### Install
-Add to your existing website, and replace the line on upload.php that says "INSERT-WEBSITE-LINK-HERE" to your site's path.
+Add to your existing website, and replace the line on upload.php that says "INSERT-WEBSITE-LINK-HERE" to your site's path. Don't forget to provide an /i/ folder!
 
 *Camera icon by Nesi Ratna Nilasari from the Noun Project. This project is licensed under an MIT license.*
