@@ -44,7 +44,8 @@ if ($uploadOk == 0) {
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-        Redirect('http://img.erikbianco.me/i/'.$_FILES["fileToUpload"]["name"], false);
+        //Replace INSERT-WEBSITE-LINK-HERE by your site's path. I.e.: http://img.erikbianco.me/i/
+        Redirect('INSERT-WEBSITE-LINK-HERE/i/'.$_FILES["fileToUpload"]["name"], false);
     } else {
         echo "Hubo un error subiendo tu archivo. Intentalo de nuevo! ";
     }
