@@ -3,13 +3,11 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
     <title>Subir una Imagen</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
 
+<!-- Code for Bootstrap to work properly -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -37,18 +35,17 @@
 	 		margin-right: 30%;
 			margin-left: 30%;
 		}
-    </style>
-    <!-- Custom styles for this template -->
+	</style>
     <link href="Signin%20Template%20%C2%B7%20Bootstrap_files/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <form class="form-signin" action="upload.php" method="post" enctype="multipart/form-data">
     	  <img class="mb-4" src="camera.png" alt="" width="72">
- 			 <h1 class="h3 mb-3 font-weight-normal">Hosting de Imágenes</h1>
+ 			 <h1 class="h3 mb-3 font-weight-normal">Image Hosting</h1>
  		<div class="custom-file">
   			<input type="file" class="custom-file-input" name="fileToUpload" id="fileToUpload">
-  			<label class="custom-file-label" for="customFile">Selecciona un archivo</label>
-  			<input class="btn btn-lg btn-primary btn-block" type="submit" value="Subir Imagen" name="submit">
+  			<label class="custom-file-label" for="customFile">Select a file</label>
+  			<input class="btn btn-lg btn-primary btn-block" type="submit" value="Upload Image" name="submit">
 		</div>
   	<p class="mt-5 mb-3 text-muted">© erikbianco.me<span title="Camera by Nesi Ratna Nilasari from the Noun Project">†</span></p>
 	</form>
